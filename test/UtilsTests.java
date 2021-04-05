@@ -5,6 +5,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class UtilsTests {
 
     @Test
+    public void TestFibonacci0() {
+        assertEquals(Utils.Fibonacci(0), 0);
+    }
+
+    @Test
     public void TestFibonacci1() {
         assertEquals(Utils.Fibonacci(1), 1);
     }
